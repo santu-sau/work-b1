@@ -1,0 +1,32 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.ba{
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight:weight;
+      font-style: normal;
+}   
+
+.body-para1{
+    font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight:600;
+      font-style: normal;
+      font-size: 200%;
+}
+.body-para2{
+    font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight:weight;
+      font-style: normal;
+      font-size: 150%;
+}
+.pp{
+    height:200%;
+}
+.fonts{
+    font-size: 22px;
+}

@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap project-1</title>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-primary text-light text-center fixed-top">
+      <div class="container-fluid ">
+        <a class="navbar-brand text-warning ba " href="#">Web Hub</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#pro">Project</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#serv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                skill
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#serv">Graphic Designer</a></li>
+                <li><a class="dropdown-item" href="#serv">Web Designer</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#serv">App development</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light" aria-disabled="true">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search ">
+            <input class=" form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success bg-warning text-light  " type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div id="carouselExampleFade" class="carousel slide carousel-fade home">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/pic-1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/lab.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/library.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section class="about-me" id="pro">
+    <div class="container-fluid ba text-center mt-3">
+      <h1 class="text-primary">About Us</h1>
+    </div>
+  <hr class="w-25 m-auto">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-6 col-12 ps-5 mt-4">
+      <h1 class="body-para1">What did you want to know?</h1>
+      <p class="body-para2">Lorem ipsum dolor sit amet, consectetur
+         adipisicing elit. Asperiores totam molestias ad! Aliquam repudiandae
+          quaerat commodi harum assumenda ullam, ipsam earum,
+         perspiciatis totam odio iure! Est minus voluptas tempora porro?</p>
+         <button type="button" class="btn btn-primary ps-3">Learn more</button>
+         <div class="accordion mt-3" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Our Vision
+              </button >
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Our Goal
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Our Expactation
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 col-12 ps-5 text-center">
+      <img src="assets/pic2.jpg" class="img-fliud img-thumbnail text-center rounded picc mt-3">
+    </div>
+  </div>
+</section>
+
+<!-- our services -->
+<section class="survices py-2 bg-light" id="serv">
+  <div class="container">
+    <div class="container-fluid ba text-center mt-3">
+      <h1 class="text-primary mt-4"><span class="text-danger">Our</span> <span class="text-black">services</span></h1>
+    </div>
+  <hr class="w-25 m-auto text-primary ">
+  </div>
+  <div class="row mt-3 ms-1">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2 rounded">
+      <div class="card rounded">
+        <div class="card-body bg-info rounded">
+          <h5 class="card-title text-danger">Graphic design</h5>
+          <p class="card-text ba">Graphic design courses cover 
+            a wide range of topics, frn principles  topics, frn principles   topics, frn principles and software skills to specific areas lik, and UI/UX design. 
+            They can be found online through platforms like .</p>
+          <a href="#" class="btn btn-warning">Know More</a>
+        </div>
+    </div>
+ </div>
+ <div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2">
+  <div class="card">
+    <div class="card-body bg-primary rounded">
+      <h5 class="card-title text-danger">App Development</h5>
+      <p class="card-text ba">App development courses teach individuals how to create
+         software devices like smartphones and tablets.
+          These courses cover various aspects of app development,aspects of app development, including programming.</p>
+      <a href="#" class="btn btn-warning">Know More</a>
+    </div>
+</div>
+</div>
+<div class="col-sm-12 col-md-4 col-lg-4 col-12 mt-2">
+  <div class="card">
+    <div class="card-body bg-info rounded">
+      <h5 class="card-title text-danger">  Web Development</h5>
+      <p class="card-text ba">Web Development Careers: Unveiling the Path to 
+        S and maintaining
+       encompassing both front-end ncompas
+         (what users see and interact with) and back-end (the server-side logic)..</p>
+      <a href="#" class="btn btn-warning">Know More</a>
+    </div>
+</div>
+</div>
+ </div>
+
+</section>
+
+<!-- team section -->
+ <section class="team">
+  <div class="container">
+    <div class="container-fluid ba text-center mt-3">
+      <h1 class="text-primary mt-4"><span class="text-black">
+        Our</span> <span class="text-danger">Team</span></h1>
+    </div>
+  <hr class="w-25 m-auto text-primary height-5 w-50">
+  <div class="row mt-5 ms-1">
+    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-2">
+      <div class="card bg-secondary border-3 border-warning" >
+        <img src="assets/pic2.jpg" class="card-img-top img-fliud 
+        rounded-circle border border-3 border-danger p-1 mt-3 mb-1 w-50 m-auto" alt="...">
+        <div class="card-body height: 10%;">
+          <h5 class="card-title text-center ba text-light">Santu Sau</h5>
+          <h5 class="card-title text-center text-light fonts">Graphic Designer</h5>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4 col-12 mb-2">
+      <div class="card bg-secondary border-3 border-warning" >
+        <img src="assets/pic2.jpg" class="card-img-top img-fliud 
+        rounded-circle border border-3 border-danger p-1 mt-3 mb-1 w-50 m-auto" alt="...">
+        <div class="card-body height: 10%;">
+          <h5 class="card-title text-center ba text-light">Santu Sau</h5>
+          <h4 class="card-title text-center text-light">Web Developer</h4>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-4 col-lg-4 col-12 ">
+      <div class="card border-3 border-warning bg-secondary">
+        <img src="assets/pic2.jpg" class="card-img-top img-fliud 
+        rounded-circle border border-3 border-danger p-1 mt-3 mb-1 w-50 m-auto" alt="...">
+        <div class="card-body height: 10%;">
+          <h5 class="card-title text-center ba text-white ">Santu Sau</h5>
+          <h4 class="card-title text-center text-white">App developer</h4>
+         </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+ </section>
+ <div class="bg-primary  p-1"><h3 class="ba text-center text-warning">Developed By Santu Sau</h3></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
